@@ -1,0 +1,17 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#location {
+    display: flex;
+    flex-direction: column;
+}
+

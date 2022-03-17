@@ -1,0 +1,14 @@
+#items{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-left: 30px;
+    justify-content: space-evenly;
+}
+#items merchandise{
+    height:200px;
+    width: auto;
+
+}
+

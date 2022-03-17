@@ -1,0 +1,64 @@
+body {
+    background-color:lightskyblue;
+    padding: 20px;
+    margin: 0;
+}
+h1,h2,h3,p,th,td,ul, li label, input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:darkblue;
+}
+h3{
+    font-style: italic;
+}
+h1 {
+    background-color: powderblue;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+ul.header li{
+    display: inline;
+    list-style-type: none;  
+    margin: 0;
+}
+ul.header {
+    background-color: powderblue;
+    padding: 0;
+    text-align: center;
+    display:inline-block;
+    width:100%;
+    justify-content: center;
+}
+ul.header li a{
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+.content h2 {
+    background-color: powderblue;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.content p {
+    background-color: powderblue;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+.content img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.store{
+    height: 75%;
+    padding-left: 20%;
+}
