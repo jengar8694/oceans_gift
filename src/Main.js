@@ -26,6 +26,12 @@ class Main extends Component {
                         <Route path="/hours" component={Hours}/>
                         <Route path="/contact" component={Contact}/>
                     </div>
+                    <bk/>
+                    <ul className="footer"> 
+                        <li>3212 Atlantic Ave. Virginia Beach, VA 32451</li>
+                        <li>Oceans Gift Shop & Bike Rental</li>                       
+                        <li>757-122-4562</li>
+                    </ul>
                 </div>
             </HashRouter>
         );

@@ -42,7 +42,8 @@ ul.header li a{
     padding: 20px;
     display: inline-block;
     text-align: center;
-    width:100%;
+    width:50%;
+    margin-left: 25%;
 }
 .content p {
     background-color: powderblue;
@@ -57,8 +58,19 @@ ul.header li a{
     padding: 5px;
     width: 150px;
 }
-
-.store{
-    height: 75%;
-    padding-left: 20%;
+ul.footer li{
+    display: inline;
+    list-style-type: none;  
+    margin: 10;
+    padding: 30px;
 }
+ul.footer {
+    background-color: powderblue;
+    padding: 20px;
+    text-align: center;
+    display:inline-block;
+    width:100%;
+    justify-items:stretch;
+}
+
+

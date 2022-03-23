@@ -1,7 +1,53 @@
 import React, { Component } from "react";
 import bike from './static/cruiserbike.jpg';
 import surry from './static/surry.jpg';
-import './rentals.css';
+import styled from 'styled-components';
+
+const Table = styled.table`
+    background:powderblue;
+    height: 170px;
+    width: 300px;`;
+
+const Info = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: stretch;`;
+
+const Photo = styled.img`
+    height = 400px;`;
+
+const Reservation = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-right:50% ;
+    margin-left: 10%; `;
+
+const Button = styled.button`
+    background-color:powderblue;
+    border-radius:20px;
+    color:navyblue;`;
+
+const Check = styled.div`
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content:stretch;`;
+
+const Text = styled.label`
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:darkblue;
+    background-color:powderblue;
+    border-radius:8px;`;
+
+
 
 class Rentals extends Component {
     render() {
@@ -15,12 +61,12 @@ class Rentals extends Component {
                 </div>
                 <br/>
                 <br/>
-                    <div id="rentalContainer">
-                        <div id="bike">
-                            <img src={bike} alt="Beach cruiser bike" />
+                    <Info>
+                        <div>
+                            <Photo src={bike} alt="Beach cruiser bike" />
                         </div>
                         <div>
-                            <table class="rental">
+                            <Table>
                                 <thead>
                                     <tr>
                                         <th>Cruiser</th>
@@ -50,27 +96,31 @@ class Rentals extends Component {
                                         <td>-------</td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </Table>
                         </div>
-                        <div id= "surry">
-                            <img src={surry} alt="Surry bike"/>
+                        <div>
+                            <Photo src={surry} alt="Surry bike" />
                         </div>
-                 </div>
+                 </Info>
              <div>
                         <p>Reserve Yours Today! Check below for availability.</p>
                  </div>
-                 <div id="reservation">
-                     <label for="child">Child bike:</label>
-                     <input type="text" id="child" size="3" maxLength={2}/>
-                     <label for="adult">Adult bike:</label>
-                     <input type="text" id="adult" size="3" maxLength={2}/>   
-                     <label for="sSurry">Small Surry:</label>
-                     <input type="text" id="sSurry" size="3" maxLength={2}/>    
-                     <label for="lSurry">Large Surry:</label>
-                     <input type="text" id="lSurry" size="3" maxLength={2}/>          
-                     <input type="date"/>
-                     <input type="submit" value="SUBMIT"/>
-                 </div>
+                 <Check>
+                    <Reservation>
+                        <Text for="child">Child bike:</Text>
+                        <input type="text" id="child" size="3" maxLength={2}/>
+                        <Text for="adult">Adult bike:</Text>
+                        <input type="text" id="adult" size="3" maxLength={2}/>   
+                        <Text for="sSurry">Small Surry:</Text>
+                        <input type="text" id="sSurry" size="3" maxLength={2}/>    
+                        <Text for="lSurry">Large Surry:</Text>
+                        <input type="text" id="lSurry" size="3" maxLength={2}/> 
+                    </Reservation>
+                    <div id="submit">         
+                        <input type="date"/>
+                        <Button>SUBMIT</Button>
+                    </div>
+                 </Check>
             </div>
         );
     }
