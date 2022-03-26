@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/oceans_gift/static/css/main.0a5a2259.css",
+    "main.js": "/oceans_gift/static/js/main.d2fb9190.js",
+    "static/media/souvenirs.jpg": "/oceans_gift/static/media/souvenirs.b46d8d6da27e5d9b0989.jpg",
+    "static/media/apparel.jpg": "/oceans_gift/static/media/apparel.1e83a1b22fde20ffa49c.jpg",
+    "static/media/towels.jpg": "/oceans_gift/static/media/towels.2b748a33d82c511d27d8.jpg",
+    "static/media/surry.jpg": "/oceans_gift/static/media/surry.9b0c5b608879df18b399.jpg",
+    "static/media/cruiserbike.jpg": "/oceans_gift/static/media/cruiserbike.e438c8353806962aa68a.jpg",
+    "static/media/Store1.jpg": "/oceans_gift/static/media/Store1.0cc3e775ed0d2f5fc5db.jpg",
+    "static/media/drinks1.jpg": "/oceans_gift/static/media/drinks1.5d327f61f9aa4cb5bd5d.jpg",
+    "static/media/board.jpg": "/oceans_gift/static/media/board.790a59b39909b7780679.jpg",
+    "static/media/map.jpg": "/oceans_gift/static/media/map.eb711fd370752e293978.jpg",
+    "index.html": "/oceans_gift/index.html",
+    "main.0a5a2259.css.map": "/oceans_gift/static/css/main.0a5a2259.css.map",
+    "main.d2fb9190.js.map": "/oceans_gift/static/js/main.d2fb9190.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5a2259.css",
+    "static/js/main.d2fb9190.js"
+  ]
+}
