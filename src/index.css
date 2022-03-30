@@ -3,7 +3,7 @@ body {
     padding: 20px;
     margin: 0;
 }
-h1,h2,h3,p,th,td,ul, li label, input{
+h2,h3,p,th,td,ul, li label, input{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     color:darkblue;
 }
