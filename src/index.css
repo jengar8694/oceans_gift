@@ -11,10 +11,17 @@ h3{
     font-style: italic;
 }
 h1 {
+    position: absolute;
+    top: 41px;
+    left: calc(50% - 643px - 21px);
+    font-size: 48px;
+    font-family: Rock Salt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1286px;
+    height: 139px;
     background-color: powderblue;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
 }
 
 ul.header li{
