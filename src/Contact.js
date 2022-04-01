@@ -1,5 +1,12 @@
 import React, { Component } from "react";
 import styled from 'styled-components';
+import "./index.css";
+
+const Layout = styled.div`
+    display: flex;
+    flex-direction: row;
+    column-gap:20px; `;
+    
 
 const Comments = styled.form`
     display: flex;
@@ -19,7 +26,8 @@ const Textarea= styled.textarea`
 const Button = styled.button`
     background-color:powderblue;
     border-radius:20px;
-    color:navyblue;`;
+    color:navyblue;
+    width: 10%; `;
 
 
 const Location = styled.div`
@@ -35,8 +43,7 @@ const Details = styled.p`
 class Contact extends Component {
     render() {
         return(
-            <div>
-                <div>
+            <Layout>
                     <Comments>
                         <label for="email">Email</label>
                         <Input type="text" id="email" size="15" maxLength="30"/>
@@ -46,13 +53,12 @@ class Contact extends Component {
                         <br/>
                         <Button>SUBMIT</Button>
                     </Comments>
-                </div>
                 <Location>
                     <Details>757-122-4562</Details>
                     <br/>
                     <Details>3212 Atlantic Ave. Virginia Beach, VA 32451</Details>
                 </Location>
-            </div>
+            </Layout>
         );
     }
 }
