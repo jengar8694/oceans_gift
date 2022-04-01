@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import store from './static/Store1.jpg';
 import styled from 'styled-components';
+import "./index.css";
 
 const LogoContainer = styled.div`
     position: absolute;
