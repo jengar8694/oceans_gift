@@ -1,11 +1,16 @@
+:root {
+    --blue-gradient: linear-gradient(313.6deg, #12BBF0 41.5%, rgba(25, 188, 239, 0.47) 50%);
+    --box-color: #C1EAF6;
+    --text-color: #000000;
+}
 body {
-    background-color:lightskyblue;
+    background-color: var(blue-gradient);
     padding: 20px;
     margin: 0;
 }
 h2,h3,p,th,td,ul, li label, input{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    color:darkblue;
+    font-family: 'Radley' serif;
+    color:var(--text-color);
 }
 h3{
     font-style: italic;
@@ -15,13 +20,13 @@ h1 {
     top: 41px;
     left: calc(50% - 643px - 21px);
     font-size: 48px;
-    font-family: Rock Salt;
+    font-family: 'Rock Salt' , cursive;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1286px;
     height: 139px;
-    background-color: powderblue;
+    background-color: var(--box-color);
 }
 
 ul.header li{
@@ -30,7 +35,7 @@ ul.header li{
     margin: 0;
 }
 ul.header {
-    background-color: powderblue;
+    background-color: var(--box-color);
     padding: 0;
     text-align: center;
     display:inline-block;
@@ -38,14 +43,14 @@ ul.header {
     justify-content: center;
 }
 ul.header li a{
-    color: darkblue;
+    color: var(--text-color);
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
     display: inline-block;
 }
 .content h2 {
-    background-color: powderblue;
+    background-color: var(--blue-gradient);
     padding: 20px;
     display: inline-block;
     text-align: center;
@@ -53,18 +58,13 @@ ul.header li a{
     margin-left: 25%;
 }
 .content p {
-    background-color: powderblue;
+    background-color: var(--box-color);
     padding: 20px;
     text-align: center;
     width: 100%;
     font-weight: bold;
 }
-.content img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-}
+
 ul.footer li{
     display: inline;
     list-style-type: none;  
@@ -72,7 +72,7 @@ ul.footer li{
     padding: 30px;
 }
 ul.footer {
-    background-color: powderblue;
+    background-color: var(--box-color);
     padding: 20px;
     text-align: center;
     display:inline-block;
